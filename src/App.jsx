@@ -4,6 +4,8 @@ import Hero from './Components/Navbar/Hero/Hero'
 import Services from './Components/Navbar/Services/Services'
 import Title from './Components/Navbar/Title/Title'
 import About from './Components/About/About'
+import Projects from './Components/Projects/Projects'
+import Reviews from './Components/Reviews/Reviews'
 
 
 const App = () => {
@@ -15,7 +17,12 @@ const App = () => {
         <Title subTitle='Our SERVICES' title='What We Offer'/>
         <Services/>
         <About/>
-        <Title subTitle='Our PROJECTS' title='Some of the projects we have worked on'/>
+        <Title subTitle='Our PROJECTS' 
+        title='Some of the projects we have worked on'/>
+        <Projects/>
+        <Title subTitle='REVIEWS' title='What Our Clients Say'/>
+        <Reviews/>
+        
       </div>
     </div>
   )

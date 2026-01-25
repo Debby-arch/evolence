@@ -1,0 +1,18 @@
+.projects{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.project-icon{
+    flex-basis: 40%;
+}
+.project-description{
+    flex-basis: 56%;
+}
+.projects-btn{
+    display:flex;
+    justify-content: center;
+    align-items: end;
+}

@@ -9,7 +9,6 @@ const About = () => {
     <div className='about'>
       <div className="about-left">
         <img src={about_img} className='about-img'/>
-        
       </div>
       <div className="about-right">
         <h3>About EVOLENCE</h3>
