@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
         <p>© 2026 Evolence. All rights reserved</p>
         <ul>
-            <li>Termes of Services</li>
+            <li>Terms of Services</li>
             <li>Privacy Policy</li>
         </ul>
       

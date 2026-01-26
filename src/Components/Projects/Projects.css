@@ -2,17 +2,23 @@
     margin: 100px auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 90%;
 }
-.project-icon{
+/*.project-icon{
     flex-basis: 40%;
-}
+}*/
 .project-description{
-    flex-basis: 56%;
+    /*flex-basis: 56%;*/
+    justify-content: center;
+    align-items: center;
 }
 .projects-btn{
     display:flex;
     justify-content: center;
     align-items: end;
 }
+/*----------media query-------
+@media (max-width: 800px){
+
+}*/
